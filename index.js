@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('!Hello World! Debian generated from jenkins and published to S3. First Deployment from Spinnaker. Version 6');
+  res.send('--> !Hello World! Debian generated from jenkins and published to S3. First Deployment from Spinnaker. Version 6');
 });
 
 var server = app.listen(3000, function () {
